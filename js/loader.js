@@ -2,11 +2,11 @@ const params = new URLSearchParams(location.search);
 const game = params.get("game");
 
 const links = {
-  fnaf1: "https://YOUR-FNAF1-LINK/",
-  fnaf2: "https://YOUR-FNAF2-LINK/",
-  fnaf3: "https://YOUR-FNAF3-LINK/",
-  fnaf4: "https://YOUR-FNAF4-LINK/",
-  fnaf5: "https://YOUR-FNAF5-LINK/"
+  fnaf1: "https://fnaf1-taupe.vercel.app",
+  fnaf2: "https://sussygamedeveloper.github.io/FNAF2/",
+  fnaf3: "https://sussygamedeveloper.github.io/fnaf3/",
+  fnaf4: "https://fnaf-4-5oim.vercel.app",
+  fnaf5: "https://fnafsl-umber.vercel.app"
 };
 
 document.write(`<iframe src="${links[game]}" class="frame"></iframe>`);
